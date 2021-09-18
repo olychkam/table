@@ -2,6 +2,8 @@
   "name": "my-test",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://olychkam.github.io/table",
+
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@reduxjs/toolkit": "^1.6.1",
@@ -51,8 +53,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "json-server": "json-server --watch public/notes.json --port 3001",
-    "dev": "concurrently \"npm start\" \"npm run json-server\""
   },
   "eslintConfig": {
     "extends": [
